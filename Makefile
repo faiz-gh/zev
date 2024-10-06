@@ -1,4 +1,4 @@
 build:
-	@gcc main.c chunk.c memory.c -o zev
+	@gcc .\src\main.c .\src\chunk.c .\src\memory.c .\src\debug.c .\src\value.c -o .\bin\zev
 run: build
-	@.\zev.exe
+	@.\bin\zev.exe

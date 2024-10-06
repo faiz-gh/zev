@@ -1,6 +1,6 @@
 # Zev
 
-Zev is a simple, fast, and extensible compiler for the Zev programming language. It is written in C and uses the GCC compiler as a backend.
+Zev is a simple, fast, and extensible compiler for the Zev programming language. It is written in C and uses the GCC compiler to generate executables.
 
 ## Installation
 
@@ -21,10 +21,7 @@ To use Zev, you will need to write a Zev program and save it with a `.zev` exten
 For example, if you have a file named `hello.zev` with the following contents:
 
 ```zev
-// The below syntax is yet to be decided upon, but it will be similar to C and python syntax (kind of in-between)
-fn main() {
-    print("Hello, World!");
-}
+print "Hello, World!";
 ```
 
 You can compile the program using the following command:
